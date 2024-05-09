@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --black: #121214;
+    --white: #e1e1e6;
+    --green: #04d361;
+    --grey: #a8a8a8;
+    --purple: #8257e5;
+    --purple-light: #9d61f8;
+  }
+  
+  body {
+    font-family: 'Open Sans', 'sans-serif';
+    color: var(--white)
+  }
+  
+  .testimonial {
+    border-radius: .5rem;
+    padding: 2rem;
+  }
+  
+  div.user {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+  
+  div.user img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.5rem;
+  }
+  
+  p.comment-highlight {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .comment {
+    font-weight: 400;
+    font-size: .9rem;
+  }
+  
+  /* Individual Card Styles per Character */
+  
+  #hank{
+    background: linear-gradient(90deg, var(--purple) 50%, var(--purple-light) 100%);
+  }
+  
+  #barry{
+    background: linear-gradient(90deg, rgb(0, 0, 0) 70%, rgb(29, 2, 2) 100%);
+  }
