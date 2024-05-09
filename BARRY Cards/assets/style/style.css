@@ -17,6 +17,15 @@
     font-family: 'Open Sans', 'sans-serif';
     color: var(--white)
   }
+
+  .testimonial-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+  }
   
   .testimonial {
     border-radius: .5rem;
@@ -52,9 +61,17 @@
   /* Individual Card Styles per Character */
   
   #hank{
-    background: linear-gradient(90deg, var(--purple) 50%, var(--purple-light) 100%);
+    background: linear-gradient(90deg, var(--purple) 50%, var(--purple-light) 90%);
   }
   
   #barry{
-    background: linear-gradient(90deg, rgb(0, 0, 0) 70%, rgb(29, 2, 2) 100%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 70%, rgb(29, 2, 2) 110%);
+  }
+
+  #sally {
+    background: linear-gradient(90deg, var(--grey) 70%, rgb(26, 41, 36) 110%);
+  }
+
+  #gene {
+    background: linear-gradient(90deg, rgb(173, 51, 20) 70%, rgb(37, 7, 7) 110%);
   }
