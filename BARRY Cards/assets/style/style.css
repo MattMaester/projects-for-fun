@@ -15,7 +15,7 @@
   
   body {
     font-family: 'Open Sans', 'sans-serif';
-    color: var(--white)
+    color: var(--white);
   }
 
   .grid-col-span-2 {
@@ -37,6 +37,17 @@
     padding: 2rem;
     min-width: 300px;
     min-height: 300px;
+    transition: 0.2s;
+  }
+
+  .testimonial a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .testimonial:hover {
+    cursor: pointer;
+    transform: scale(1.05);
   }
 
   .testimonial:last-child {
@@ -91,3 +102,20 @@
   #cristobal {
     background: linear-gradient(90deg, rgb(0, 12, 82) 70%, rgb(7, 0, 32) 110%);
   }
+
+  /* Moments page */
+
+  /* main.moments {
+    margin: 2rem;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  main.moments .moment-card {
+    background-color: rgb(173, 51, 20);
+    text-align: center;
+    padding: 2rem;
+    width: 100px;
+    border-radius: .5rem;
+  } */
